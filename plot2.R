@@ -6,3 +6,4 @@ plot(data$Date_Time, data$Global_active_power, xlab = " ", ylab = "Gloabl Active
 
 #Export png
 dev.copy(png, "plot2.png")
+dev.off()
