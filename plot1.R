@@ -5,3 +5,4 @@ hist(as.numeric(as.character(data$Global_active_power)), main = "Global Active P
 
 #Export png
 dev.copy(png, "plot1.png")
+dev.off()
