@@ -1,5 +1,4 @@
 #Create Date/Time column
-
 data$Date_Time <- strptime(paste(data$Date, data$Time), format = "%d/%m/%Y %H:%M:%S")
 
 #Create plot
